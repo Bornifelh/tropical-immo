@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "PetroveSans-regular";
+  src: url("../fonts/PetrovSans-Regular.ttf") format("truetype");
+}
+
+/*BODY INDEX.PHP */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PetroveSans-regular", sans-serif;
+}
+
+.contenair-footer {
+  min-height: 20vh;
+  background-color: #171717;
+  padding: 3%;
+  color: #fff;
+}
+
+.information-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.section-1 {
+  display: grid;
+  color: #fff;
+}
+
+.section-1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-1 a:hover {
+  color: #ccc;
+}

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "PetroveSans-regular";
+  src: url("../fonts/PetrovSans-Regular.ttf") format("truetype");
+}
+
+/*BODY ajout_annonce.PHP */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PetroveSans-regular", sans-serif;
+}
+/* Bloc 1 form */
+.bloc-1-form {
+  margin: 0;
+  width: 100%;
+  min-height: 95vh;
+  background-color: #ccc;
+  padding: 40px;
+}
+
+/* form annonce */
+
+.add-annonce {
+  display: grid;
+
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  position: relative;
+  visibility: visible;
+  max-width: 600px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding: 24px 24px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 14px;
+  z-index: 1;
+  left: calc(100% - 70%);
+}
+
+.content-add-annonce {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  display: grid;
+  margin-bottom: 10px;
+}
+
+.add-annonce input[type="text"] {
+  height: 46px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: solid 0.8px;
+}
+
+.add-annonce select {
+  height: 46px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: solid 0.8px;
+}
+
+.add-annonce input[type="file"] {
+  height: 23px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: solid 0.8px;
+}
+
+.add-annonce input[type="submit"] {
+  height: 46px;
+  margin-top: 10px;
+  background-color: green;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+.add-annonce textarea {
+  min-height: 150px;
+  margin-top: 10px;
+}
+
+.imagesbien {
+  margin-top: 20px;
+}

@@ -1,0 +1,102 @@
+.contenair-details-bien {
+  padding: 0 25%;
+}
+
+.content-details-produit {
+  margin: 20px 0;
+  background-color: #fff;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgb(0, 0, 0, 0.7) 0px 2px 5px 0px;
+}
+
+.content-images-bien {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.content-infos {
+  padding: 1% 3%;
+}
+.content-details {
+  width: auto;
+}
+
+.image-main {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+}
+
+.images-bien {
+  height: 150px;
+  width: 180px;
+  object-fit: cover;
+  margin: 2px 5px;
+}
+
+.contenair-bien {
+  justify-content: center;
+}
+
+.content-infos-plus {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.label-bien-div {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.superficie-bien-div p {
+  color: green;
+}
+
+.btn-callcenter {
+  padding: 0.5% 1.5%;
+  color: #fff;
+  text-decoration: none;
+  background-color: green;
+  margin-bottom: 15px;
+}
+
+/* Panel agence */
+.agence-immo {
+  width: auto;
+  padding: 1% 3%;
+  box-shadow: rgb(0, 0, 0, 0.7) 0px 2px 5px 0px;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+}
+
+.infos-p {
+  margin: 0;
+}
+
+.btn-agence {
+  margin: 10px 0;
+}
+
+.btn-agence a {
+  padding: 0.2% 1%;
+
+  color: #000;
+}
+.profil {
+  border-right: solid 1px #000;
+}
+
+.tarif {
+  border-left: solid 1px #000;
+}
+
+.p {
+  font-weight: bold;
+}
+
+.prix-product {
+  color: green;
+}

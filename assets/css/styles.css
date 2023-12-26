@@ -1,0 +1,262 @@
+@font-face {
+  font-family: "PetroveSans-regular";
+  src: url("../fonts/PetrovSans-Regular.ttf") format("truetype");
+}
+
+/*BODY INDEX.PHP */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PetroveSans-regular", sans-serif;
+}
+
+/* main */
+
+main {
+  margin: 0;
+  padding: 0;
+  min-height: 150vh;
+}
+
+/* Contenair content */
+.contenair {
+  margin: 0;
+}
+
+.form-content {
+  height: auto;
+  margin: 0px auto 12px;
+  padding: 0px 12px;
+  position: relative;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 1;
+  display: inline-block;
+}
+
+form {
+  display: grid auto;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  position: absolute;
+  visibility: visible;
+  min-height: 261px;
+  max-width: 510px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding: 24px 24px;
+  text-align: left;
+  opacity: 1;
+  margin: -600px auto auto auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 14px;
+  z-index: 1;
+  left: calc(100% - 68%);
+}
+
+form h1 {
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.ville-province {
+  width: 285px;
+  height: 46px;
+  margin-right: 15px;
+  font-size: 16px;
+  border: solid 1px green;
+  border-radius: 5px;
+}
+
+.montant-recherche {
+  width: 180px;
+  height: 46px;
+  font-size: 16px;
+  border: solid 1px green;
+  border-radius: 5px;
+}
+
+.input-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chekbox {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
+
+.item-checkbox {
+  display: flex;
+  color: #000;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.src-avance {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn-search {
+  margin-top: 20px;
+  width: 100%;
+  height: 46px;
+  background-color: green;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+
+.bloc-1 {
+  width: 100%;
+  height: 80vh;
+}
+
+.bloc-1 img {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.voirplus {
+  margin-top: 10px;
+  color: green;
+}
+
+/* Services agence */
+.services-agence {
+  z-index: 999;
+  height: 15vh;
+  padding: 1.5% 15% 1.5% 10%;
+  margin-top: 20px;
+}
+
+.content-serveices {
+  height: 15vh;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-3d {
+  color: green;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.btn-3d svg {
+  margin-right: 10px;
+}
+
+.btn-3d:hover {
+  color: red;
+}
+/* Bloc 2 */
+
+.bloc-2 {
+  padding: 2% 10%;
+  background-color: #ccc;
+  min-height: 100vh;
+}
+
+.bloc-2-2 {
+  padding: 2% 10%;
+  background-color: #ccc;
+}
+
+.content-produits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.content-bien {
+  margin: 0;
+  padding: 0;
+}
+
+.content-bien-view {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.8);
+  background-color: #fff;
+}
+
+.content-bien {
+  height: auto;
+  display: flex;
+}
+
+.content-text-bien {
+  display: grid;
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  width: 70%;
+}
+
+.image-bien {
+  width: 40%;
+  height: 207px;
+  object-fit: cover;
+}
+
+.tout-detaisl {
+  display: flex;
+  margin-top: 0px;
+}
+
+.item-content {
+  color: #000;
+  text-align: center;
+  padding: 10px;
+}
+
+.item-content-h4-bas {
+  margin-top: 5px;
+}
+
+.prix-bien {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  color: red;
+}
+
+.coupdecoeur-item {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  color: red;
+}
+
+.voir-bien {
+  width: 100px;
+  text-decoration: none;
+  color: #fff;
+  background-color: green;
+  padding: 4px;
+  text-align: center;
+  align-items: center;
+  display: grid;
+}
+
+/* Bloc 3 */
+
+.bloc-3 {
+  padding: 1% 10%;
+  background-color: #fff;
+}

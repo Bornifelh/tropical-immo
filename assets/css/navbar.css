@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "PetroveSans-regular";
+  src: url("../fonts/PetrovSans-Regular.ttf") format("truetype");
+}
+
+/* Login */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PetroveSans-regular", sans-serif;
+}
+
+.contenair-navbar {
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.tropical-contnet {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.tropical-text {
+  display: flex;
+  margin: 0 20px 0 10%;
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  font-size: 1.4rem;
+  width: auto;
+}
+
+.deposer-annonce {
+  color: #000;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #fff;
+  width: 200px;
+  align-items: center;
+  color: green;
+  border: solid 1px green;
+  text-align: center;
+}
+
+.deposer-annonce:hover {
+  background-color: green;
+  color: #fff;
+  border: solid 1px #fff;
+}
+
+.logo-img {
+  height: 10vh;
+  display: none;
+}
+
+nav {
+  display: flex;
+  margin: 0 5% 0 0;
+  align-items: center;
+}
+
+nav ul {
+  display: inline-flex;
+}
+
+nav ul li {
+  margin: 0 0 0 20px;
+  list-style: none;
+}
+
+.link-menu {
+  color: green;
+  text-decoration: none;
+}
+
+.link-menu:hover {
+  text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0, 0.5);
+}

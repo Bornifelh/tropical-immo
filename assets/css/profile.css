@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "PetroveSans-regular";
+  src: url("../fonts/PetrovSans-Regular.ttf") format("truetype");
+}
+
+/*BODY*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PetroveSans-regular", sans-serif;
+}
+
+.contenair-profile {
+  min-height: 100vh;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2% 5%;
+}
+
+.data-profile {
+  width: 350px;
+  border: solid 0;
+  box-shadow: rgb(0, 0, 0, 0.6) 2px 2px 4px;
+  padding: 1%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+.content-data-profile {
+  width: 50%;
+}
+
+.image-proprio {
+  border-radius: 50%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.btn-reabonnement {
+  display: grid;
+}
+
+.btn-reabonnement a {
+  text-decoration: none;
+  color: green;
+}
+
+.btn-reabonnement a:hover {
+  filter: drop-shadow(rgb(0, 0, 0, 0.6) 1px 1px 2px);
+  color: red;
+}
+
+.content-btn-profile {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 2px green;
+}
+/* liste des bien utilisateurs */
+
+.bloc-2 {
+  padding: 2% 10%;
+  background-color: #ccc;
+}
+
+.content-produits {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+.content-bien {
+  margin: 0;
+  padding: 0;
+}
+
+.content-bien-view {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.8);
+  background-color: #fff;
+}
+
+.content-bien {
+  height: auto;
+  display: flex;
+}
+
+.content-text-bien {
+  display: grid;
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  width: 70%;
+}
+
+.image-bien {
+  width: 40%;
+  height: 207px;
+  object-fit: cover;
+}
+
+.tout-detaisl {
+  display: flex;
+  margin-top: 0px;
+}
+
+.item-content {
+  color: #000;
+  text-align: center;
+  padding: 10px;
+}
+
+.item-content-h4-bas {
+  margin-top: 5px;
+}
+
+.prix-bien {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  color: red;
+}
+
+.coupdecoeur-item {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  color: red;
+}
+
+.voir-bien {
+  width: 100px;
+  text-decoration: none;
+  color: #fff;
+  background-color: green;
+  padding: 4px;
+  text-align: center;
+  align-items: center;
+  display: grid;
+}
